@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Display from '../../Containers/CharactersViewer';
+import CharactersView from '../../Containers/CharactersViewer';
+import { EarthFireProvider } from '../../Hooks/EarthFireProvider';
 
 export default function App() {
   return (
     <>
-      <Header/>
-      <Display/>
+      <EarthFireProvider>
+        <Header/>
+        <CharactersView/>
+      </EarthFireProvider>
     </>
   );
 }

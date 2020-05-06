@@ -1,0 +1,10 @@
+.Root {
+  background-color: rgba(0, 128, 0, 0.541);
+  h1 {
+    color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
