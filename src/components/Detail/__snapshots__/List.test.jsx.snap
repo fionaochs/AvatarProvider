@@ -5,7 +5,7 @@ exports[`List matches a List snapshot 1`] = `
   className="Characters"
 >
   <li
-    key="Ang"
+    key="1"
   >
     <Detail
       affiliation="air"
