@@ -6,7 +6,7 @@ import styles from './styles.css';
 const List = ({ characters }) => {
   const charactersList = characters.map(character => 
     <>
-      <li key={character.name}>
+      <li key={character.id}>
         <Detail {...character} />
       </li>
     </>
@@ -26,7 +26,7 @@ List.propTypes = {
     name: PropTypes.string.isRequired,
     allies: PropTypes.string.isRequired,
     affiliation: PropTypes.string.isRequired,
-    enemies: PropTypes.string.isRequired,
+    enemies: PropTypes.string,
     image: PropTypes.string.isRequired,
   })).isRequired
 };

@@ -19,7 +19,7 @@ Detail.propTypes = {
   allies: PropTypes.string.isRequired,
   affiliation: PropTypes.string.isRequired,
   enemies: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
+  image: PropTypes.string,
 };
 
 export default Detail;
