@@ -6,7 +6,7 @@ import styles from './styles.css';
 const List = ({ characters }) => {
   const charactersList = characters.map(character => 
     <>
-      <li>
+      <li key={character.name}>
         <Detail {...character} />
       </li>
     </>
