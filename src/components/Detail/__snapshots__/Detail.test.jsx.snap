@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail matches a detail snapshot 1`] = `
+<section>
+  <h3>
+    Ang
+  </h3>
+  <img
+    src="image"
+  />
+  <p>
+    Allies: 
+    allies
+  </p>
+  <p>
+    Enemies: 
+    enemies
+  </p>
+  <p>
+    Affiliation: 
+    affiliation
+  </p>
+</section>
+`;

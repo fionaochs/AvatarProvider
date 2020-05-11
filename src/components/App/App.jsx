@@ -1,6 +1,16 @@
 import React from 'react';
+import Header from '../Header/Header';
+import CharactersView from '../../Containers/CharactersViewer';
+import { EarthFireProvider } from '../../Hooks/EarthFireProvider';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <EarthFireProvider>
+        <Header/>
+        <CharactersView/>
+      </EarthFireProvider>
+    </>
+  );
 }
-  
+

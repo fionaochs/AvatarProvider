@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List matches a List snapshot 1`] = `
+<ul
+  className="Characters"
+  key="5"
+>
+  <ul
+    key="1"
+  >
+    <li
+      key="Ang"
+    >
+      <Detail
+        affiliation="air"
+        allies="all"
+        enemies="fire nation"
+        id={1}
+        image="url"
+        name="Ang"
+      />
+    </li>
+  </ul>
+  <ul
+    key="2"
+  >
+    <li
+      key="Ang"
+    >
+      <Detail
+        affiliation="air"
+        allies="all"
+        enemies="fire nation"
+        id={2}
+        image="url"
+        name="Ang"
+      />
+    </li>
+  </ul>
+</ul>
+`;
