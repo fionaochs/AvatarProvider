@@ -5,29 +5,37 @@ exports[`List matches a List snapshot 1`] = `
   className="Characters"
   key="5"
 >
-  <li
-    key="Ang"
+  <ul
+    key="1"
   >
-    <Detail
-      affiliation="air"
-      allies="all"
-      enemies="fire nation"
-      id={1}
-      image="url"
-      name="Ang"
-    />
-  </li>
-  <li
-    key="Ang"
+    <li
+      key="Ang"
+    >
+      <Detail
+        affiliation="air"
+        allies="all"
+        enemies="fire nation"
+        id={1}
+        image="url"
+        name="Ang"
+      />
+    </li>
+  </ul>
+  <ul
+    key="2"
   >
-    <Detail
-      affiliation="air"
-      allies="all"
-      enemies="fire nation"
-      id={2}
-      image="url"
-      name="Ang"
-    />
-  </li>
+    <li
+      key="Ang"
+    >
+      <Detail
+        affiliation="air"
+        allies="all"
+        enemies="fire nation"
+        id={2}
+        image="url"
+        name="Ang"
+      />
+    </li>
+  </ul>
 </ul>
 `;

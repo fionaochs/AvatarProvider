@@ -5,11 +5,11 @@ import styles from './styles.css';
 
 const List = ({ characters }) => {
   const charactersList = characters.map(character => 
-    <>
+    <ul key={character.id}>
       <li key={character.name}>
         <Detail {...character} />
       </li>
-    </>
+    </ul>
   );
   // const characterId = characters.map(character => character.id);
   return (
