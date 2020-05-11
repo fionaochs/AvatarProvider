@@ -3,15 +3,28 @@
 exports[`List matches a List snapshot 1`] = `
 <ul
   className="Characters"
+  key="5"
 >
   <li
-    key="1"
+    key="Ang"
   >
     <Detail
       affiliation="air"
       allies="all"
       enemies="fire nation"
       id={1}
+      image="url"
+      name="Ang"
+    />
+  </li>
+  <li
+    key="Ang"
+  >
+    <Detail
+      affiliation="air"
+      allies="all"
+      enemies="fire nation"
+      id={2}
       image="url"
       name="Ang"
     />

@@ -6,14 +6,14 @@ import styles from './styles.css';
 const List = ({ characters }) => {
   const charactersList = characters.map(character => 
     <>
-      <li key={character.id}>
+      <li key={character.name}>
         <Detail {...character} />
       </li>
     </>
   );
-
+  // const characterId = characters.map(character => character.id);
   return (
-    <ul className={styles.Characters}>
+    <ul key={5} className={styles.Characters}>
       {charactersList}
     </ul>
   );

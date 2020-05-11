@@ -10,6 +10,14 @@ const characters = [
     affiliation: 'air', 
     enemies: 'fire nation',
     image: 'url'
+  },
+  {
+    id: 2,
+    name: 'Ang',
+    allies: 'all',
+    affiliation: 'air', 
+    enemies: 'fire nation',
+    image: 'url'
   }
 ];
 

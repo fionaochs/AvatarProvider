@@ -15,7 +15,7 @@ const Detail = ({ image, allies, enemies, affiliation, name }) =>  (
 
 Detail.propTypes = {
   name: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   allies: PropTypes.string.isRequired,
   affiliation: PropTypes.string.isRequired,
   enemies: PropTypes.string.isRequired,

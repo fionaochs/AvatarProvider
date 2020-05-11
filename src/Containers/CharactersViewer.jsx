@@ -4,6 +4,7 @@ import List from '../components/Detail/List';
 import { useEarthFire } from '../Hooks/EarthFireProvider';
 import earthStyles from '../Earth.css';
 import fireStyles from '../Fire.css';
+import './CharactersViewer.css';
 
 const CharactersViewer = () => {
   const [characters, setCharacters] = useState([]);
@@ -12,6 +13,7 @@ const CharactersViewer = () => {
 
   const changePage = (direction) => {
     setPage(prevPage => prevPage + direction);
+    // -1, 1 
   };
 
 
