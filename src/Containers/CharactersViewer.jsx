@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchCharacters } from '../services/avatar';
+import { fetchCharacters } from '../Services/avatar';
 import List from '../components/Detail/List';
 import { useEarthFire } from '../Hooks/EarthFireProvider';
 import earthStyles from '../Earth.css';
